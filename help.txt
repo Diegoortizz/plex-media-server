@@ -1,0 +1,12 @@
+
+------- OMERGERFS ------
+
+sudo mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media /media_local/:/mnt/sdc1 /media
+
+# IN /etc/fstab
+/media_local/:/mnt/sdc1 /media fuse.mergerfs cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media 0 0
+
+
+--- CRON 
+
+cd /var/log && cat syslog.1 syslog | grep CRON

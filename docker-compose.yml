@@ -1,0 +1,153 @@
+version: "3.4"
+services:
+  vpn:
+    image: qmcgaw/gluetun
+    container_name: vpn
+    cap_add:
+      - NET_ADMIN
+    environment:
+      - VPN_SERVICE_PROVIDER=nordvpn
+      - OPENVPN_USER={NORDVPN_USER}
+      - OPENVPN_PASSWORD={NORDVPN_PASSWORD}
+      - SERVER_COUNTRIES=France
+    ports:
+    # qbittorrent ports
+      - 8080:8080
+      - 6881:6881
+      - 6881:6881/udp
+    # jackett ports
+      - 9117:9117
+    # flaresolverr ports
+      - 8191:8191	
+
+  qbittorrent:
+    image: linuxserver/qbittorrent:latest
+    container_name: qbittorrent
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+      # - UMASK=022
+      # - WEBUI_PORT=8090
+    volumes:
+      - ${ROOT}/config/qbittorrent:/config # config files
+      - ${ROOT}/downloads:/downloads # downloads folder
+    network_mode: service:vpn # run on the vpn network
+    restart: always
+    depends_on:
+      - vpn
+
+  flaresolverr: 
+    image: ghcr.io/flaresolverr/flaresolverr:latest 
+    container_name: flaresolverr 
+    # hostname: vpn 
+    network_mode: service:vpn # run on the vpn network
+    environment: 
+      - LOG_LEVEL=${LOG_LEVEL:-info}  
+      - LOG_HTML=${LOG_HTML:-false} 
+      # - CAPTCHA_SOLVER=harvester
+      - TZ=${TZ} # timezone, defined in .env
+    restart: always
+
+  jackett:
+    container_name: jackett
+    image: linuxserver/jackett:latest
+    restart: always
+    network_mode: service:vpn # run on the vpn network
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/downloads/torrent-blackhole:/downloads # place where to put .torrent files for manual download
+      - ${ROOT}/config/jackett:/config # config files
+    depends_on:
+      - vpn
+      - flaresolverr
+  
+
+
+  plex-server:
+    container_name: plex-server
+    image: plexinc/pms-docker:latest
+    restart: always
+    environment:
+      - TZ=${TZ} # timezone, defined in .env
+    network_mode: host
+    volumes:
+      - ${ROOT}/config/plex/db:/config # plex database
+      - ${ROOT}/config/plex/transcode:/transcode # temp transcoded files
+      - ${ROOT}/complete:/data # media library
+      # - ${ROOT}/downloads:/data
+  
+  # deluge:
+  #   container_name: deluge
+  #   image: linuxserver/deluge:latest
+  #   restart: always
+  #   network_mode: host # run on the vpn network
+  #   environment:
+  #     - PUID=${PUID} # default user id, defined in .env
+  #     - PGID=${PGID} # default group id, defined in .env
+  #     - TZ=${TZ} # timezone, defined in .env
+  #   volumes:
+  #     - ${ROOT}/downloads:/downloads # downloads folder
+  #     - ${ROOT}/config/deluge:/config # config files
+  
+
+  
+
+  sonarr: # https://downforeveryoneorjustme.com/skyhook.sonarr.tv
+    container_name: sonarr
+    image: linuxserver/sonarr:latest
+    restart: always
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/config/sonarr:/config # config files
+      - ${ROOT}/complete/tv:/tv # tv shows folder 
+      - ${ROOT}/downloads:/downloads # download folder
+    depends_on:
+      - jackett
+
+  radarr:
+    container_name: radarr
+    image: linuxserver/radarr:latest
+    restart: always
+    network_mode: host
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+      - ${ROOT}/config/radarr:/config # config files
+      - ${ROOT}/complete/movies:/movies # movies folder
+      - ${ROOT}/downloads:/downloads # download folder
+    depends_on:
+      - jackett
+
+  
+  overseerr:
+    image: linuxserver/overseerr:latest
+    container_name: overseerr
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+    volumes:
+      - ${ROOT}/config/overseerr:/config
+      # - ${ROOT}/movies:/movies
+      # - ${ROOT}/tvshows:/tvshows
+    ports:
+      - 5055:5055
+    restart: always
+    network_mode: host
+    depends_on:
+      - sonarr
+      - radarr
+      - plex-server
