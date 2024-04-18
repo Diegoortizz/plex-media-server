@@ -1,0 +1,50 @@
+mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media_merged /mnt/sdc1:/media2 /media2
+
+mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media_merged /mnt/sdc1:/ /media2
+
+mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media_shared /mnt/sdc1:/ /media2
+
+/mnt/local=RW:/path/to/other/drive/=RW:/path/to/even/another/drive=RW /mnt/media
+
+
+
+/mnt/local=RW:/path/to/other/drive/=RW:/path/to/even/another/drive=RW /mnt/media
+
+
+
+/mnt/sdc1:/media /media fuse.mergerfs cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media,nonempty,x-gvfs-show 0 0
+/mnt/sdc1:/media /media fuse.mergerfs cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media, 0 0
+
+
+sudo mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media /media_local/:/mnt/sdc1 /media
+
+
+
+df -h /media
+
+du -h --max-depth=1 /
+
+df -h --block-size=1M /media
+
+# Subdir size in Gb
+du -sh /media/complete/movies/
+
+# ls in mb
+ls -l --block-size=M
+
+lsblk -f
+
+find /path/to/directory \( -type f -o -type d \) -iname "*substring*" -print
+find . \( -type f -o -type d \) -iname "*01*" -print
+
+------- OMERGERFS ------
+
+sudo mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media /media_local/:/mnt/sdc1 /media
+
+# IN /etc/fstab
+/media_local/:/mnt/sdc1 /media fuse.mergerfs cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media 0 0
+
+
+--- CRON 
+
+cd /var/log && cat syslog.1 syslog | grep CRON

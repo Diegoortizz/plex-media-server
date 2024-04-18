@@ -1,0 +1,11 @@
+cd ~/htpc-download-box/
+docker compose down 
+
+mount 
+retirer le mount de /mnt/sdc1
+
+
+sudo mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,fsname=media /media_local/:/mnt/sdc1 /media
+
+
+docker compose up
