@@ -48,3 +48,8 @@ sudo mergerfs -o cache.files=partial,dropcacheonclose=true,category.create=mfs,f
 --- CRON 
 
 cd /var/log && cat syslog.1 syslog | grep CRON
+
+
+----- HARDLINKS
+
+stat ...
