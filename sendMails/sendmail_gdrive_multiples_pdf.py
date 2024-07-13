@@ -38,9 +38,18 @@ service_gmail = build('gmail', 'v1', credentials=creds)
 service_drive = build('drive', 'v3', credentials=creds)
 
 def upload_to_drive(file_path):
-    file_metadata = {'name': os.path.basename(file_path)}
+    # Folder ID for the "LeMonde" folder
+    folder_id = '1bZsuYXpjyStgDHVZ-j_9U6SnijzpQh8A'
+    
+    file_metadata = {
+        'name': os.path.basename(file_path),
+        'parents': [folder_id]  # Specify the folder ID as the parent
+    }
     media = MediaFileUpload(file_path, mimetype='application/pdf')
+    
+    # Upload the file
     file = service_drive.files().create(body=file_metadata, media_body=media, fields='id,webViewLink').execute()
+    
     return (file.get('webViewLink'), file_metadata['name'])
 
 def create_message_with_links(sender, to, subject, message_text, file_links):
@@ -69,11 +78,11 @@ current_date = datetime.now().strftime("%d/%m/%Y")
 
 header = f"Votre mise à jour quotidienne du journal Le Monde - {current_date}"
 
-body = """🌞 Bonjour !
+body = f"""🌞 Bonjour !
 
-J'espère que vous allez bien aujourd'hui ! Vous trouverez ci-dessous la dernière édition du jour du journal Le Monde. 📖✨ Ici, chaque article est soigneusement sélectionné pour vous offrir les meilleures perspectives sur les événements mondiaux.
+J'espère que vous allez bien aujourd'hui ! Vous trouverez ci-dessous la dernière édition du jour du journal Le Monde. 📰✨ Ici, chaque article est soigneusement sélectionné pour vous offrir les meilleures perspectives sur les événements mondiaux.
 
-Détente assurée ! 📚🗞️ Découvrez les nouvelles, recevez les informations les plus récentes et découvrez les analyses les plus intéressantes.
+Détente assurée ! 📚🗞️ Découvrez les nouvelles, recevez les informations les plus récentes et explorez les analyses les plus intéressantes.
 
 Bonne lecture et bonne journée ! 📈📰
 
@@ -81,18 +90,20 @@ Cordialement,
 Votre équipe de nouvelles quotidiennes
 
 P.S. Vous êtes invité à explorer toutes les dernières publications et à apprécier les moments captivants que chaque numéro apporte.
+
+🗂️ **Archives des articles** : Pour retrouver les numéros précédents et consulter les articles que vous auriez pu manquer, rendez-vous ici : [Archives Le Monde](https://drive.google.com/drive/folders/1bZsuYXpjyStgDHVZ-j_9U6SnijzpQh8A?usp=sharing). Vous y trouverez toutes les éditions passées, prêtes à être découvertes ! 🗞️📦
 """
 
 # Get the list of new file paths
 new_file_paths = extract_pdf_paths()
 
 if new_file_paths:
-    print(f"{len(new_file_paths)} new files found : {new_file_paths} ")
+    print(f"{len(new_file_paths)} new files found : {[f.split('/')[-1] for f in new_file_paths]} ")
     file_links = [upload_to_drive(path) for path in new_file_paths]
-    # message = create_message_with_links('me', 'ortiz.diego81@gmail.com', header, body, file_links)
+    message = create_message_with_links('me', 'ortiz.diego81@gmail.com', header, body, file_links)
     # message = create_message_with_links('me', 'pascal.ortiz@gmail.comd', header, body, file_links)
-    # send_message(service_gmail, 'me', message)
+    send_message(service_gmail, 'me', message)
 
 
-# else:
-#     print("No new files found, no email sent.")
+else:
+    print("No new files found, no email sent.")

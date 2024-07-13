@@ -44,10 +44,10 @@ def extract_pdf_paths():
     # Return the paths of the new files
     new_file_paths = [os.path.join(directory_path, f) for f in new_files]
 
-    if new_file_paths:
-        print(f"New files found: {new_file_paths}")
-    else:
-        print("No new files found in the specified directory.")
+    # if new_file_paths:
+    #     print(f"New files found: {new_file_paths}")
+    # else:
+    #     print("No new files found in the specified directory.")
 
     return new_file_paths
 
