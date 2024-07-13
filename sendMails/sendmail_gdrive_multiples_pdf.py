@@ -101,7 +101,7 @@ if new_file_paths:
     print(f"{len(new_file_paths)} new files found : {[f.split('/')[-1] for f in new_file_paths]} ")
     file_links = [upload_to_drive(path) for path in new_file_paths]
     message = create_message_with_links('me', 'ortiz.diego81@gmail.com', header, body, file_links)
-    # message = create_message_with_links('me', 'pascal.ortiz@gmail.comd', header, body, file_links)
+    # message = create_message_with_links('me', 'pascal.ortiz@gmail.com', header, body, file_links)
     send_message(service_gmail, 'me', message)
 
 
