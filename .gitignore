@@ -7,3 +7,7 @@ sendMails/credentials.json
 sendMails/token.json
 backup_*
 cron.log
+config/
+qbit_api/old*
+radarr_api/
+cron.log

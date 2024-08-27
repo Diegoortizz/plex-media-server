@@ -66,6 +66,31 @@ def create_message_with_links(sender, to, subject, message_text, file_links):
     raw_message = base64.urlsafe_b64encode(message.as_string().encode()).decode()
     return {'raw': raw_message}
 
+def create_message_with_attachments(sender, to, subject, message_text, file_paths):
+    message = MIMEMultipart()
+    message['to'] = to
+    message['from'] = sender
+    message['subject'] = subject
+
+    msg = MIMEText(message_text)
+    message.attach(msg)
+
+    for file_path in file_paths:
+        content_type, encoding = mimetypes.guess_type(file_path)
+        if content_type is None or encoding is not None:
+            content_type = 'application/octet-stream'
+        main_type, sub_type = content_type.split('/', 1)
+
+        with open(file_path, 'rb') as file:
+            msg = MIMEBase(main_type, sub_type)
+            msg.set_payload(file.read())
+        encoders.encode_base64(msg)
+        msg.add_header('Content-Disposition', 'attachment', filename=os.path.basename(file_path))
+        message.attach(msg)
+
+    raw_message = base64.urlsafe_b64encode(message.as_string().encode()).decode()
+    return {'raw': raw_message}
+
 def send_message(service, user_id, message):
     try:
         message = (service.users().messages().send(userId=user_id, body=message).execute())
@@ -94,16 +119,25 @@ P.S. Vous êtes invité à explorer toutes les dernières publications et à app
 🗂️ **Archives des articles** : Pour retrouver les numéros précédents et consulter les articles que vous auriez pu manquer, rendez-vous ici : [Archives Le Monde](https://drive.google.com/drive/folders/1bZsuYXpjyStgDHVZ-j_9U6SnijzpQh8A?usp=sharing). Vous y trouverez toutes les éditions passées, prêtes à être découvertes ! 🗞️📦
 """
 
+# Choose whether to attach files or use Google Drive links
+USE_GDRIVE_LINKS = True  # Set to False to attach files
+
+# mail_to = "pascal.ortiz@gmail.com"
+mail_to = "ortiz.diego81@gmail.com"
+
 # Get the list of new file paths
 new_file_paths = extract_pdf_paths()
 
 if new_file_paths:
     print(f"{len(new_file_paths)} new files found : {[f.split('/')[-1] for f in new_file_paths]} ")
-    file_links = [upload_to_drive(path) for path in new_file_paths]
-    message = create_message_with_links('me', 'ortiz.diego81@gmail.com', header, body, file_links)
+
+    if USE_GDRIVE_LINKS:
+        file_links = [upload_to_drive(path) for path in new_file_paths]
+        message = create_message_with_links('me', mail_to, header, body, file_links)
+    else:
+        message = create_message_with_attachments('me', mail_to, header, body, new_file_paths)
+
     # message = create_message_with_links('me', 'pascal.ortiz@gmail.com', header, body, file_links)
     send_message(service_gmail, 'me', message)
-
-
 else:
     print("No new files found, no email sent.")

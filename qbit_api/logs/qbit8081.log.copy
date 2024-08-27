@@ -1,0 +1,961 @@
+2024-08-21 22:03:17 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e875e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:22 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e86d40>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:28 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e85a80>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:33 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78c50820>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:38 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78c510c0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:43 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e863e0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:48 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e86e00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:53 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e876a0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:03:58 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e87f10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:03 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78c50ca0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:08 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78c50490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:13 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e87f70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:18 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e87640>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:23 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e86da0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:28 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e86560>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:33 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78c51060>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:38 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78c50a60>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:43 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e864d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:48 - FAILED TO CONNECT TO THE SERVICE: HTTPConnectionPool(host='192.168.1.15', port=8081): Max retries exceeded with url: /api/v2/auth/login (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3a78e86e00>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-08-21 22:04:53 - Authenticated successfully
+Title : The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW
+Torrent is now downloading.
+Tracker removed
+Title : Mars.Express.2023.FRENCH.1080p.WEB.H264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Mars.Express.2023.FRENCH.1080p.WEB.H264-FW
+Torrent is now downloading.
+Tracker removed
+Torrent 'The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW' is now seeding 07c23d5307... . Reassigning https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c.
+Paused torrent: The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW
+Torrent The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW is now paused.
+Tracker added back to torrent: The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW
+Resumed torrent: The.Beekeeper.2024.MULTi.1080p.WEB.H264-FW
+Torrent 'Mars.Express.2023.FRENCH.1080p.WEB.H264-FW' is now seeding 3a8526141f... . Reassigning https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c.
+Paused torrent: Mars.Express.2023.FRENCH.1080p.WEB.H264-FW
+Torrent Mars.Express.2023.FRENCH.1080p.WEB.H264-FW is now paused.
+Tracker added back to torrent: Mars.Express.2023.FRENCH.1080p.WEB.H264-FW
+Resumed torrent: Mars.Express.2023.FRENCH.1080p.WEB.H264-FW
+Title : Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv
+Torrent is now downloading.
+Tracker removed
+Torrent 'Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv' is now seeding 14c4e53616... . Reassigning https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c.
+Paused torrent: Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv
+Torrent Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv is now paused.
+Tracker added back to torrent: Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv
+Resumed torrent: Blade.(1998).Multi.VFF.DTS.BluRay.HDLight.1080p.x264-PuNiSHeR03.mkv
+Title : Doctor Strange in the Multiverse of Madness (2022) | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Doctor Strange in the Multiverse of Madness (2022)
+Torrent is now downloading.
+Tracker removed
+Title : The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent is now downloading.
+Tracker removed
+Torrent 'The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv' is now seeding 810e67cf82... . Reassigning https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c.
+Paused torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv is now paused.
+Tracker added back to torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Resumed torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Title : The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent is now downloading.
+Tracker removed
+Title : Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv
+Torrent is now downloading.
+Tracker removed
+Title : Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv
+Torrent is now downloading.
+Tracker removed
+Title : Sous.la.Seine.2024.PROPER.FRENCH.1080p.WEB.x264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Sous.la.Seine.2024.PROPER.FRENCH.1080p.WEB.x264-FW
+Torrent is now downloading.
+Tracker removed
+Title : X-Men Origins - Wolverine (2009) MULTi VFF 1080p 10bit HDLight BluRay x265 AAC 5.1 - QTZ.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: X-Men Origins - Wolverine (2009) MULTi VFF 1080p 10bit HDLight BluRay x265 AAC 5.1 - QTZ.mkv
+Torrent is now downloading.
+Tracker removed
+Torrent 'The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv' is now seeding 810e67cf82... . Reassigning https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c.
+Paused torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv is now paused.
+Tracker added back to torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Resumed torrent: The Super Mario Bros Movie (2023) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent 'Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv' is now seeding bfdfa0aaca... . Reassigning https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c.
+Paused torrent: Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv
+Torrent Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv is now paused.
+Tracker added back to torrent: Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv
+Resumed torrent: Kingdom.of.the.Planet.of.the.Apes..2024.MULTi.TRUEFRENCH.1080p.WEB-DL.7.1.H264-Slay3R.mkv
+Title : Despicable.Me.4.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: Despicable.Me.4.2024.MULTi.VFQ.1080p.WEB.H264-FW
+Torrent is now downloading.
+Tracker removed
+Title : The.Equalizer.3.2023.MULTi.WEB.1080p.H264-DRM.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c
+Download started for torrent: The.Equalizer.3.2023.MULTi.WEB.1080p.H264-DRM.mkv
+Torrent is now downloading.
+Tracker removed
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 242, in <module>
+    # Unpause a limited number of torrents if the active torrent count is below the limit
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 185, in monitor_torrents
+    try:
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 57, in get_trackers
+    tracker = trackers[-1]['url']
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of ''Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK''
+2024-08-22 02:12:47 - Authenticated successfully
+Attempting to unpause Title : The.Idea.of.You.2024.MULTi.VF2.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash cec483221c819994bd4f12896993ee5f8fe78abe
+Attempting to unpause Title : The.Creator.2023.MULTi.VF2.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 70e33bbfc7267335387d9b33a6049341b2936fe8
+Attempting to unpause Title : The.Family.Plan.2023.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 9f8c421426e0099a1711337236fd4601cafdebe1
+Attempting to unpause Title : Challengers.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 5fec11c4640661d2fdad93317ffe910a84b7d770
+Attempting to unpause Title : The.Holdovers.2023.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 305943137ecf4c84b90ba9c719ebb6d288982c5f
+Attempting to unpause Title : Dune.Part.Two.2024.MULTi.VF2.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash a20aaa2c2bc9b74e780522c22ff72f906ac177c3
+Attempting to unpause Title : Barbie.2023.MULTi.TRUEFRENCH.1080p.WEB.H264-ALLDAYiN | State : pausedDL
+HERE - Successfully resumed torrent with hash 0a2cb4d36c5cc71e2777ca4f5efdd86cdfeb5331
+Attempting to unpause Title : Godzilla.Minus.One.2023.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 346bfdb09e4bd069e6fba84e92873cb53f21fb9e
+Attempting to unpause Title : Poor.Things.2023.MULTI.1080p.WEB.H264-LOST | State : pausedDL
+HERE - Successfully resumed torrent with hash a7103672a812105b84c38ea1edd1a287dec2a913
+Attempting to unpause Title : Transformers.Rise.of.the.Beasts.2023.MULTi.TRUEFRENCH.VF2.1080p.AMZN.WEB-DL.DDP5.1.H264-Transformers | State : pausedDL
+HERE - Successfully resumed torrent with hash 1a60dab552b418b8f5b5ba8982ee937969abd9af
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:12:53 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:12:58 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:04 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:09 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:15 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:20 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:26 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:31 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:37 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:43 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:49 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:13:55 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:02 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:08 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:15 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:21 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:27 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:32 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:38 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:44 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:50 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:14:56 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:02 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:08 - Authenticated successfully
+Attempting to unpause Title : Hit.Man.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash fff88c713850e2418ba974d186bfddb5453a98fc
+Attempting to unpause Title : Mission.Impossible.Dead.Reckoning.Part.One.2023.MULTi.VFF.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash fa0dad1b8d80c3d2fe54bafcf9fcd4cf4ce5641a
+Attempting to unpause Title : Joker (2019) [2160p HDR10 DV8 x265 MULTI VFF 7.1 THD ATMOS].mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 7c5db3a781c7d7e33909e826029f2b8a3e1230a2
+Attempting to unpause Title : The.Zone.of.Interest.2023.MULTi.VFF.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash de0d246cc17dbed2ff51294651b38aa52fc67043
+Attempting to unpause Title : Civil.War.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 01b1d856709a4319b433f5f6cfbb6a1d06f94083
+Attempting to unpause Title : Rebel.Moon.Part.Two.The.Scargiver.2024.MULTi.1080p.WEB.x264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash fd69ec0428de678f32ce6ecb3ad886625d4379ee
+Attempting to unpause Title : To.Catch.a.Killer.2023.MULTi.1080p.AMZN.WEB-DL.DDP5.1.H.264-FCK.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 2c55a0cc2022b3127ceab78f02fb8fa29785fba8
+Attempting to unpause Title : The.Instigators.2024.MULTi.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe
+Attempting to unpause Title : Le Fabuleux Destin d'Amélie Poulain (2001) 1080p Bluray OPUS 5.1 AV1-WhiskeyJack.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 2dbeaf3b2f31a986a3aac596aeff0db3ff09df8d
+Attempting to unpause Title : Horizon.An.American.Saga.Chapter.1.2024.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash df8dcf2850bff88af49389d55142242330dab78b
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:13 - Authenticated successfully
+Attempting to unpause Title : Arthur the King (2024) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 0d374862d839f21f2bb2ca319e19c6e1538261cc
+Attempting to unpause Title : Ferrari.2023.MULTi.VFF.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash dc856c852781d0f21bd5396599184616a5c1f383
+Attempting to unpause Title : Godzilla.x.Kong.The.New.Empire.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 8a5e821da0c991c82d330c1ddc8372f78a9ec4ce
+Attempting to unpause Title : Spider.Man.Across.The.Spider.Verse.2023.MULTi.TRUEFRENCH.1080p.WEB-DL.H264-Slay3R.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash ac3f975b54654afd1b52485fce57161f6ff310e4
+Attempting to unpause Title : Wonka.2023.MULTi.VFF.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 5bcee985ab34564cd91d04b56803ea7606f64e92
+Attempting to unpause Title : Killers.of.the.Flower.Moon.2023.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 632a911f4ab9741b9efc3efdee651cf84e4bf6a5
+Attempting to unpause Title : Sound.of.Freedom.2023.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 54de811ba6082f9bef89e155bb7e25e532bacadb
+Attempting to unpause Title : Oppenheimer.2023.MULTi.VF2.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash b1a05f1095c20937d71ab24f6caa4bf89445310e
+Attempting to unpause Title : The.Running.Man.(1987).Multi.VFF.1080p.BluRay.mHD.x264.AC3.DTS-PuNiSHeR03.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 7fc7a5b4149f48fa29c2a4beb57a33c37532323d
+Attempting to unpause Title : Elemental.2023.TRUEFRENCH.1080p.WEB.H264-ONLYMOViE.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash b45ab6a18ad39473fd5eff13b72c96b0fddfcf44
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:19 - Authenticated successfully
+Attempting to unpause Title : Land.of.Bad.2024.MULTi.VFQ.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash aa9112cc8a51b0cd6c951aa873b0e60aa8d23280
+Attempting to unpause Title : Young.Woman.and.the.Sea.2024.MULTi.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 8f6a6a515750529309f6c5dcea75058e69d69be3
+Attempting to unpause Title : A.Quiet.Place.Day.One.2024.MULTi.VF2.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash f586d85b4dbe469e7100e0175e2f616300b02815
+Attempting to unpause Title : Edge of Tomorrow (2014) [BD UHDR10 hybriDV8 x265 MULTi 7.1 VFF TrueHD VO ATMOS].mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863
+Attempting to unpause Title : Society.of.the.Snow.2023.MULTi.1080p.WEB.x264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 042aefdf9d1b14da39d27eeb8d6100e2b5457a7d
+Attempting to unpause Title : Furiosa.A.Mad.Max.Saga.2024.MULTi.VFF.BLURAY.2160p.4KLight.DV.HDR.x265.DDP.Atmos.5.1-CiSCO.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 71af265a04dc5480c27b8f7d5d3fb048a22373dc
+Attempting to unpause Title : Terminator.Genisys.(2015).Multi.VFF.1080p.BluRay.mHD.x264.AC3-PuNiSHeR03.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 07ef16154b412070bd11194ab52aa390234c650b
+Attempting to unpause Title : Migration.2023.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 7e623ba592c104e881bce351cdd72648c19562ff
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:25 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:31 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:36 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:42 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:47 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:53 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:15:59 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:16:04 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:16:10 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:16:16 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK, downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK'
+2024-08-22 02:16:21 - Authenticated successfully
+Attempting to unpause Title : Doctor Strange in the Multiverse of Madness (2022) | State : pausedDL
+HERE - Successfully resumed torrent with hash b7088fb86b723a9cacb8ac3aed82f8c7dc901b14
+Attempting to unpause Title : Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash ac37e4175a196503a1791b78f0330cfc0868b27d
+Attempting to unpause Title : Sous.la.Seine.2024.PROPER.FRENCH.1080p.WEB.x264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 213dc87522d686e6de7c32ab480c21d1a9e73abb
+Attempting to unpause Title : Despicable.Me.4.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash da01706928eeb90f5763bfae560caf6a44d36cff
+Attempting to unpause Title : The.Equalizer.3.2023.MULTi.WEB.1080p.H264-DRM.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash af7f7b0a27feb442c88ffbd17cbb1b6d66e6983a
+Attempting to unpause Title : Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK | State : pausedDL
+HERE - Successfully resumed torrent with hash c59a23281da75676b35b18896f735cc5c02c01a9
+Attempting to unpause Title : Guardians of the Galaxy Vol. 3 (2023) Hybrid IMAX MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 4bfd47424dedba464e82ffc5b0cafcd8b4c3fc80
+Attempting to unpause Title : Knox.Goes.Away.2024.MULTi.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 8420f0bf402aba1964d2d7ff5089f94a581f2a0d
+Attempting to unpause Title : Gran.Turismo.2023.MULTi.VF2.1080p.WEB-DL.H264-Slay3R.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 3a637954ddc570ecb743d1bc924f87f416cc278f
+Attempting to unpause Title : The.Idea.of.You.2024.MULTi.VF2.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash cec483221c819994bd4f12896993ee5f8fe78abe
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+Title : Joker (2019) [2160p HDR10 DV8 x265 MULTI VFF 7.1 THD ATMOS].mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Joker (2019) [2160p HDR10 DV8 x265 MULTI VFF 7.1 THD ATMOS].mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : The.Instigators.2024.MULTi.1080p.WEB.H265-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: The.Instigators.2024.MULTi.1080p.WEB.H265-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Horizon.An.American.Saga.Chapter.1.2024.MULTi.1080p.WEB.H264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Horizon.An.American.Saga.Chapter.1.2024.MULTi.1080p.WEB.H264-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Arthur the King (2024) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Arthur the King (2024) MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Elemental.2023.TRUEFRENCH.1080p.WEB.H264-ONLYMOViE.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Elemental.2023.TRUEFRENCH.1080p.WEB.H264-ONLYMOViE.mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Edge of Tomorrow (2014) [BD UHDR10 hybriDV8 x265 MULTi 7.1 VFF TrueHD VO ATMOS].mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Edge of Tomorrow (2014) [BD UHDR10 hybriDV8 x265 MULTi 7.1 VFF TrueHD VO ATMOS].mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Furiosa.A.Mad.Max.Saga.2024.MULTi.VFF.BLURAY.2160p.4KLight.DV.HDR.x265.DDP.Atmos.5.1-CiSCO.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Furiosa.A.Mad.Max.Saga.2024.MULTi.VFF.BLURAY.2160p.4KLight.DV.HDR.x265.DDP.Atmos.5.1-CiSCO.mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '71af265a04dc5480c27b8f7d5d3fb048a22373dc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Migration.2023.MULTi.VFQ.1080p.WEB.H264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Migration.2023.MULTi.VFQ.1080p.WEB.H264-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '71af265a04dc5480c27b8f7d5d3fb048a22373dc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '7e623ba592c104e881bce351cdd72648c19562ff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Knox.Goes.Away.2024.MULTi.1080p.WEB.H265-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Knox.Goes.Away.2024.MULTi.1080p.WEB.H265-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '71af265a04dc5480c27b8f7d5d3fb048a22373dc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '7e623ba592c104e881bce351cdd72648c19562ff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '8420f0bf402aba1964d2d7ff5089f94a581f2a0d': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : The.Idea.of.You.2024.MULTi.VF2.1080p.WEB.H265-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: The.Idea.of.You.2024.MULTi.VF2.1080p.WEB.H265-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '71af265a04dc5480c27b8f7d5d3fb048a22373dc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '7e623ba592c104e881bce351cdd72648c19562ff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '8420f0bf402aba1964d2d7ff5089f94a581f2a0d': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cec483221c819994bd4f12896993ee5f8fe78abe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'7c5db3a781c7d7e33909e826029f2b8a3e1230a2': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '696188fb4f7c3c445f02d2ca6a3ebb7975abc8fe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'df8dcf2850bff88af49389d55142242330dab78b': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '0d374862d839f21f2bb2ca319e19c6e1538261cc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'b45ab6a18ad39473fd5eff13b72c96b0fddfcf44': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cad9d5e25f6d58905c08fbd4258b3c4a9d5cf863': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '71af265a04dc5480c27b8f7d5d3fb048a22373dc': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '7e623ba592c104e881bce351cdd72648c19562ff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '8420f0bf402aba1964d2d7ff5089f94a581f2a0d': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'cec483221c819994bd4f12896993ee5f8fe78abe': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'c59a23281da75676b35b18896f735cc5c02c01a9': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Society.of.the.Snow.2023.MULTi.1080p.WEB.x264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Society.of.the.Snow.2023.MULTi.1080p.WEB.x264-FW
+Torrent is now downloading.
+Tracker removed
+2024-08-22 02:21:42 - Authenticated successfully
+Attempting to unpause Title : Doctor Strange in the Multiverse of Madness (2022) | State : pausedDL
+HERE - Successfully resumed torrent with hash b7088fb86b723a9cacb8ac3aed82f8c7dc901b14
+Attempting to unpause Title : Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash ac37e4175a196503a1791b78f0330cfc0868b27d
+Attempting to unpause Title : Sous.la.Seine.2024.PROPER.FRENCH.1080p.WEB.x264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 213dc87522d686e6de7c32ab480c21d1a9e73abb
+Attempting to unpause Title : X-Men Origins - Wolverine (2009) MULTi VFF 1080p 10bit HDLight BluRay x265 AAC 5.1 - QTZ.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash bb82c547515a25a04d3216011480cb7dd47d27e7
+Attempting to unpause Title : Despicable.Me.4.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash da01706928eeb90f5763bfae560caf6a44d36cff
+Attempting to unpause Title : The.Equalizer.3.2023.MULTi.WEB.1080p.H264-DRM.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash af7f7b0a27feb442c88ffbd17cbb1b6d66e6983a
+Attempting to unpause Title : Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK | State : pausedDL
+HERE - Successfully resumed torrent with hash c59a23281da75676b35b18896f735cc5c02c01a9
+Attempting to unpause Title : Guardians of the Galaxy Vol. 3 (2023) Hybrid IMAX MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 4bfd47424dedba464e82ffc5b0cafcd8b4c3fc80
+Attempting to unpause Title : Knox.Goes.Away.2024.MULTi.1080p.WEB.H265-FW | State : pausedDL
+HERE - Successfully resumed torrent with hash 8420f0bf402aba1964d2d7ff5089f94a581f2a0d
+Attempting to unpause Title : Gran.Turismo.2023.MULTi.VF2.1080p.WEB-DL.H264-Slay3R.mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash 3a637954ddc570ecb743d1bc924f87f416cc278f
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+Title : Doctor Strange in the Multiverse of Madness (2022) | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Doctor Strange in the Multiverse of Madness (2022)
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Sous.la.Seine.2024.PROPER.FRENCH.1080p.WEB.x264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Sous.la.Seine.2024.PROPER.FRENCH.1080p.WEB.x264-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : X-Men Origins - Wolverine (2009) MULTi VFF 1080p 10bit HDLight BluRay x265 AAC 5.1 - QTZ.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: X-Men Origins - Wolverine (2009) MULTi VFF 1080p 10bit HDLight BluRay x265 AAC 5.1 - QTZ.mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'bb82c547515a25a04d3216011480cb7dd47d27e7': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Despicable.Me.4.2024.MULTi.VFQ.1080p.WEB.H264-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Despicable.Me.4.2024.MULTi.VFQ.1080p.WEB.H264-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'bb82c547515a25a04d3216011480cb7dd47d27e7': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'da01706928eeb90f5763bfae560caf6a44d36cff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Paw.Patrol.The.Movie.2021.CUSTOM.FRENCH.1080p.WEB.DD5.1.H264-FCK
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'bb82c547515a25a04d3216011480cb7dd47d27e7': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'da01706928eeb90f5763bfae560caf6a44d36cff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'c59a23281da75676b35b18896f735cc5c02c01a9': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Guardians of the Galaxy Vol. 3 (2023) Hybrid IMAX MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Guardians of the Galaxy Vol. 3 (2023) Hybrid IMAX MULTi VFF 2160p 10bit 4KLight DV HDR BluRay DDP 5.1 Atmos x265-QTZ.mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'bb82c547515a25a04d3216011480cb7dd47d27e7': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'da01706928eeb90f5763bfae560caf6a44d36cff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'c59a23281da75676b35b18896f735cc5c02c01a9': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '4bfd47424dedba464e82ffc5b0cafcd8b4c3fc80': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Knox.Goes.Away.2024.MULTi.1080p.WEB.H265-FW | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Knox.Goes.Away.2024.MULTi.1080p.WEB.H265-FW
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'bb82c547515a25a04d3216011480cb7dd47d27e7': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'da01706928eeb90f5763bfae560caf6a44d36cff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'c59a23281da75676b35b18896f735cc5c02c01a9': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '4bfd47424dedba464e82ffc5b0cafcd8b4c3fc80': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '8420f0bf402aba1964d2d7ff5089f94a581f2a0d': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : The.Equalizer.3.2023.MULTi.WEB.1080p.H264-DRM.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: The.Equalizer.3.2023.MULTi.WEB.1080p.H264-DRM.mkv
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '213dc87522d686e6de7c32ab480c21d1a9e73abb': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'bb82c547515a25a04d3216011480cb7dd47d27e7': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'da01706928eeb90f5763bfae560caf6a44d36cff': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'c59a23281da75676b35b18896f735cc5c02c01a9': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '4bfd47424dedba464e82ffc5b0cafcd8b4c3fc80': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', '8420f0bf402aba1964d2d7ff5089f94a581f2a0d': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c', 'af7f7b0a27feb442c88ffbd17cbb1b6d66e6983a': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Gran.Turismo.2023.MULTi.VF2.1080p.WEB-DL.H264-Slay3R.mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Gran.Turismo.2023.MULTi.VF2.1080p.WEB-DL.H264-Slay3R.mkv
+Torrent is now downloading.
+Tracker removed
+2024-08-22 02:24:07 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:12 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:18 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:23 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:29 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:34 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:40 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:45 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:51 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:24:56 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:02 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:07 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:13 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:18 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:24 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:29 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:35 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:40 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:46 - Authenticated successfully
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+tracker: ** [LSD] **, name: Doctor Strange in the Multiverse of Madness (2022), downloading_torrents : {}
+Traceback (most recent call last):
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 327, in <module>
+    monitor_torrents()
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 275, in monitor_torrents
+    tracker = get_trackers(torrent, hash_string, downloading_torrents)
+  File "/home/diego/htpc-download-box/qbit_api/main.py", line 60, in get_trackers
+    raise ValueError(f"{tracker} isn't a valid tracker. You need to reassign manually the tracker of '{torrent['name']}'")
+ValueError: ** [LSD] ** isn't a valid tracker. You need to reassign manually the tracker of 'Doctor Strange in the Multiverse of Madness (2022)'
+2024-08-22 02:25:51 - Authenticated successfully
+2024-08-22 02:29:45 - Authenticated successfully
+Attempting to unpause Title : Doctor Strange in the Multiverse of Madness (2022) | State : pausedDL
+HERE - Successfully resumed torrent with hash b7088fb86b723a9cacb8ac3aed82f8c7dc901b14
+Attempting to unpause Title : Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv | State : pausedDL
+HERE - Successfully resumed torrent with hash ac37e4175a196503a1791b78f0330cfc0868b27d
+DOWNLOADING TORRENTS BEFORE CRASH =  {}
+Title : Doctor Strange in the Multiverse of Madness (2022) | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Doctor Strange in the Multiverse of Madness (2022)
+Torrent is now downloading.
+Tracker removed
+DOWNLOADING TORRENTS BEFORE CRASH =  {'b7088fb86b723a9cacb8ac3aed82f8c7dc901b14': 'https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c'}
+Title : Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv | State : downloading | Trackers : https://www.sharewood.tv/announce/1dd21a005b8e22df1e0a15a90805a41c (start DL)
+Download started for torrent: Léon (1994) [THEA 2160p HDR10 x265 MULTI 5.1 VFI THD VO DD].mkv
+Torrent is now downloading.
+Tracker removed

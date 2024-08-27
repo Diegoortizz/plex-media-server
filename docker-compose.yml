@@ -12,17 +12,20 @@ services:
       - OPENVPN_PASSWORD=${VPN_PASSWORD}
       - SERVER_COUNTRIES=France
     ports:
-    # qbittorrent ports
+    # qbittorrent first instance ports 
       - 8080:8080
       - 6881:6881
       - 6881:6881/udp
+    # qbittorrent second instance ports
+      - 8081:8081
+      - 6882:6882
+      - 6882:6882/udp
     # jackett ports
       - 9117:9117
     # flaresolverr ports
       - 8191:8191
     # deluge ports
       - 8112:8112 # port for deluge web UI to be reachable from local network
-
   qbittorrent:
     image: linuxserver/qbittorrent:latest
     container_name: qbittorrent
@@ -33,6 +36,7 @@ services:
       # - UMASK=022
       # - WEBUI_PORT=8090
     volumes:
+      # - /media:/media
       - ${ROOT}/config/qbittorrent:/config # config files
       # - ${ROOT}/downloads:/downloads # downloads folder
       - ${ROOT}/downloads:/media/downloads # downloads folder
@@ -40,9 +44,26 @@ services:
     restart: always
     depends_on:
       - vpn
+    
+  qbittorrent-dgo:
+    image: linuxserver/qbittorrent:latest
+    container_name: qbittorrent-dgo
+    environment:
+      - PUID=${PUID} # default user id, defined in .env
+      - PGID=${PGID} # default group id, defined in .env
+      - TZ=${TZ} # timezone, defined in .env
+      - WEBUI_PORT=8081
+      - TORRENTING_PORT=6882
+    volumes:
+      - ${ROOT}/config/qbittorrent-dgo:/config # config files
+      - /media/diego/downloads:/media/diego/downloads # downloads folder
+    network_mode: service:vpn # run on the vpn network
+    restart: always
+    depends_on:
+      - vpn
 
   flaresolverr: 
-    image: ghcr.io/flaresolverr/flaresolverr:latest 
+    image: ghcr.io/flaresolverr/flaresolverr:pr-1282
     container_name: flaresolverr 
     # hostname: vpn 
     network_mode: service:vpn # run on the vpn network
@@ -166,6 +187,29 @@ services:
       - 7879:7878
     depends_on:
       - jackett
+
+  # scrutiny:
+  #   image: ghcr.io/analogj/scrutiny:master-omnibus
+  #   container_name: scrutiny
+  #   cap_add:
+  #     - SYS_RAWIO
+  #     - SYS_ADMIN #optional
+  #   environment:
+  #     - PUID=${PUID} # default user id, defined in .env
+  #     - PGID=${PGID} # default group id, defined in .env
+  #     - TZ=${TZ} # timezone, defined in .env
+  #     - SCRUTINY_WEB=true
+  #   volumes:
+  #     - /media/config:/config
+  #     - /run/udev:/run/udev:ro
+  #     - /media/config/influxdb:/opt/scrutiny/influxdb
+  #   ports:
+  #     - 8082:8080
+  #   devices:
+  #     - "/dev/sdc"
+  #     - "/dev/sdd"
+  #     - "/dev/sde"
+  #   restart: unless-stopped
 
   # deluge:
   #   container_name: deluge

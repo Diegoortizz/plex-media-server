@@ -53,3 +53,10 @@ cd /var/log && cat syslog.1 syslog | grep CRON
 ----- HARDLINKS
 
 stat ...
+
+
+
+------ DOCKER
+
+docker-compose up -d --no-deps --build <service_name>
+docker exec -it qbittorrent-dgo bash
