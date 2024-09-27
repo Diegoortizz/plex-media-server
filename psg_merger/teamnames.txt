@@ -1,0 +1,18 @@
+AJA,Auxerre
+ASM,Monaco
+ASSE,Étienne,Etienne
+FCN,Nantes
+HAC,Havre
+LOSC,Lille
+MHSC,Montpellier
+OGC Nice,Nice
+OL,Lyon
+OM,Marseille
+PSG,Paris
+RC Lens,Lens
+RCSA,Strasbourg
+Reims,Reims
+SB29,Brest,Brestois
+SCO,Angers
+Stade Rennais,Rennes
+TFC,Toulouse

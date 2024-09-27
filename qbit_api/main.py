@@ -4,7 +4,6 @@ import time
 import os
 import threading
 from datetime import datetime
-from radarr_api import main_radarr_api, get_all_movies_from_radarr, load_exceptions
 
 # Set the URL of the qBittorrent WebUI
 qb_url = 'http://192.168.1.15:8081/api/v2/auth/login'
@@ -320,8 +319,7 @@ if __name__ == "__main__":
 
             # Check if authentication was successful
             print(f"{timestamp()} - Authenticated successfully")
-            main_radarr_api()
-            time.sleep(1)
+            # main_radarr_api()
             print(f"{timestamp()} ------------------ START - monitor_torrents() ------------------")
             monitor_torrents()
             print(f"{timestamp()} ------------------ END - monitor_torrents() ------------------")

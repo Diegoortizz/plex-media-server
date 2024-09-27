@@ -1,3 +1,4 @@
+import time
 import requests
 from datetime import datetime
 import sys
@@ -71,7 +72,7 @@ def get_tag_id_by_label(api_url, api_key, label):
 
 def main_radarr_api():
 
-    print(f"{timestamp()} ------------------ START - radarr_api() ------------------")
+    print(f"{timestamp()} ---- START - radarr_api() ----")
 
     # Replace these with your actual Radarr API URL and key
     radarr_api_url = "http://localhost:7879"
@@ -133,5 +134,9 @@ def main_radarr_api():
             delete_and_blocklist_movie_in_radarr(movie_id, radarr_api_url, radarr_api_key, title, delete_files=True, add_import_exclusion=True)
             continue
 
-    print(f"{timestamp()} ------------------ END - radarr_api() ------------------")
+    print(f"{timestamp()} ---- END - radarr_api() ----")
 
+
+while True:
+    main_radarr_api()
+    time.sleep(60)  # Wait for 60 seconds before running again

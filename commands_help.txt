@@ -60,3 +60,13 @@ stat ...
 
 docker-compose up -d --no-deps --build <service_name>
 docker exec -it qbittorrent-dgo bash
+
+------
+
+ln "/mnt/sdc1/downloads/complete/Zodiac [EN-FR] (2007) [Director's Cut].mkv" "/mnt/sdc1/complete/movies/Zodiac (2007)/Zodiac [EN-FR] (2007) [Director's Cut].mkv"
+
+rsync -avH --dry-run /mnt/sdc1/ /mnt/das8TB/ 
+
+-------
+(non recursive)
+find /mnt/sdc1/complete/movies/ -inum 16115325551749524450

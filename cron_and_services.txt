@@ -1,0 +1,7 @@
+Remettre cron
+psg.timer
+qbit8081.service
+qbit8080.service
+
+
+sudo systemctl disable qbit8080.service qbit8081.service psg-merge.timer

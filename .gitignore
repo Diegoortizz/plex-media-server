@@ -11,3 +11,4 @@ config/
 qbit_api/old*
 radarr_api/
 cron.log
+oldtokens
