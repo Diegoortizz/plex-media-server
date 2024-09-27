@@ -1,0 +1,16 @@
+sudo systemctl restart qbit8080.service
+sudo systemctl restart qbit8081.service
+sudo systemctl status radarr2.service (/home/diego/htpc-download-box/qbit_api/radarr_api.py)
+sudo systemctl enable psg-merge.timer
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+diego      41477  0.1  0.3  48260 30348 ?        Ss   20:11   0:15 /usr/bin/python3 /home/diego/htpc-download-box/qbit_api/radarr_api.py
+diego     225035  0.1  0.3  34760 25296 ?        Ss   23:26   0:01 /usr/bin/python3 /home/diego/htpc-download-box/qbit_api_8080/main.py
+diego     225090  0.3  0.3  35060 25492 ?        Ss   23:26   0:01 /usr/bin/python3 /home/diego/htpc-download-box/qbit_api/main.py
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+tail ~/htpc-download-box/qbit_api/logs/qbit8081.log
+tail ~/htpc-download-box/qbit_api/logs/radarr.log
+tail ~/htpc-download-box/qbit_api_8080/logs/qbit8080.log
+tail ~/htpc-download-box/psg_merger/logs/PSG-video-merge.log

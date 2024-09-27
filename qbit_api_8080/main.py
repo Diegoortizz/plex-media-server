@@ -4,7 +4,6 @@ import time
 import os
 import threading
 from datetime import datetime
-# from radarr_api import main_radarr_api, get_all_movies_from_radarr, load_exceptions
 
 # Set the URL of the qBittorrent WebUI
 qb_url = 'http://192.168.1.15:8080/api/v2/auth/login'
@@ -197,11 +196,13 @@ def resume_torrent(session, hash_string):
 def monitor_torrents():
     downloading_torrents = {}
     unpaused_torrents = []
-    max_unpause_count = 5  # Define how many torrents to unpause at a time
-    max_active_torrents = 5  # Define the maximum number of active torrents allowed before unpausing more (with DOWNLADING state)
+    max_unpause_count = 3  # Define how many torrents to unpause at a time
+    max_active_torrents = 3  # Define the maximum number of active torrents allowed before unpausing more (with DOWNLADING state)
     unpaused_count = 0
+    counter_cpt = 0
 
     while True:
+        counter_cpt += 1
         torrents_url = 'http://192.168.1.15:8080/api/v2/torrents/info?filter=active'
         torrents_url_paused = 'http://192.168.1.15:8080/api/v2/torrents/info?filter=paused'
         
@@ -295,9 +296,20 @@ def monitor_torrents():
         for key in keys_to_delete:
             del downloading_torrents[key]
 
+        if counter_cpt % 800 == 0:
+            print("======"*10)
+            print(f"{timestamp()} - downloading_torrents SIZE = {len(downloading_torrents)}")
+            print(f"{timestamp()} - removed_trackers SIZE     = {len(removed_trackers)}")
+            print(f"{timestamp()} - unpaused_torrents SIZE    = {len(unpaused_torrents)}")
+            print("_____"*5)
+            print("downloading_torrents = ", downloading_torrents)
+            print("_____"*5)
+            print("unpaused_torrents = ", unpaused_torrents)
+            print("======"*10)
+            counter_cpt = 0
         # print("after = ", downloading_torrents)
         # print(timestamp(), " - ", "WHILE restart")
-        time.sleep(1)  # Check every seconds
+        time.sleep(10)  # Check every seconds
         # print(removed_trackers)
 
 
